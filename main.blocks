@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="_{E;EqN`9!q^V@IV64#Q">mySprite</variable><variable type="KIND_SpriteKind" id="J%`fSu?/.9i/c*B-8Yv:">Player</variable><variable type="KIND_SpriteKind" id="mQV3}yWd7xLOS93NVK/P">Projectile</variable><variable type="KIND_SpriteKind" id="Rg3At(sd;DLwU;=|L$JZ">Food</variable><variable type="KIND_SpriteKind" id="%5*ZXm]O2kGy+7hwMFD^">Enemy</variable></variables><block type="pxt-on-start" id="taIPF{h:,7iOgOY{[o$F" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="gVD]rSaogs3fWT:Q2|(9"><field name="VAR" id="_{E;EqN`9!q^V@IV64#Q">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="Ic^(Rl*a#mf7/Nv+8Hge"><value name="img"><shadow type="screen_image_picker" id="BRS@%L/s5JN1r;|o8i]I"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"BRS@%L/s5JN1r;|o8i]I"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="zg4*f@VwRoD$tx%H5icz"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="`6R#s1ksR?M|2wjTytcG"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="=9,{#.t1pZq/5x|#86*V"><field name="VAR" id="_{E;EqN`9!q^V@IV64#Q">mySprite</field></block></value><next><block type="gameOver" id="KB_h^;YfF^4gW9-eY9xv"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="win"><shadow type="toggleWinLose" id="bnx-H:+8*UHn[2zob{ZL"><field name="win">false</field></shadow></value></block></next></block></next></block></statement></block></xml>
